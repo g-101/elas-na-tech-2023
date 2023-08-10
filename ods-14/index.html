@@ -12,6 +12,18 @@
 </head>
 
 <body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <h2 class="logo">Vida na Água</h2>
+    <ul class="nav-links">
+      <li><a href="#"></a>Inicio</li>
+      <li><a href="#about"></a>Sobre</li>
+      <li><a href="#meta"></a>Metas</li>
+    </ul>
+    <img src="./assets//icons8-hamburger-menu-40.png" alt="" class="hamburger">
+  </nav>
+  <!-- Fim do Navbar -->
   
   <!-- Header -->
   <header>
@@ -26,23 +38,7 @@
   <!-- Fim do Header -->
     
   <!--
-  <nav class="nav-bar">
-    <div class="brand">
-      <a href="#">
-        <h1><span>O</span>ds <span>1</span>4</h1>
-      </a>
-    </div>
-    <div class="nav-list">
-      <div class="hamburger">
-        <div class="bar"></div>
-      </div>
-      <ul>
-        <li><a href="#hero" data-after="Home">Inicio</a></li>
-        <li><a href="#about" data-after="About">Sobre</a></li>
-        <li><a href="#meta" data-after="Contact">Metas</a></li>
-      </ul>
-    </div>
-  </nav>
+  
     
     <section class="hero">
       <h1> 14 vida na água</h1>
@@ -62,7 +58,14 @@
         a vida marinha do mundo. toda a vida marinha do mundo.
       </p>
     </article>
-    -->  
+    -->
+    <script>
+      const menuButton = document.querySelector(".hamburger");
+      const navLinks = document.querySelector(".nav-links");
+      menuButton.addEventListener("click", () => {
+        navLinks.classList.toggle("mobile-menu")
+      })
+    </script>  
 </body>
 
 </html>
