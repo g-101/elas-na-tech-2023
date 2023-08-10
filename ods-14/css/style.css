@@ -1,48 +1,72 @@
-/*
-- Font sizes (px)
-  10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
-
-- Spacing system (px)
-  2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
-
-*/
-
+/***** ESTILOS GERAIS *****/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat');
 *,
 *:before,
 *:after {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
 }
 
-body {
-  margin: 0;
+a {
+	text-decoration: none;
+}
+/***** FIM ESTILOS GERAIS *****/
+
+/***** HEADER *****/
+header {
+  width: 100vw;
   height: 100vh;
+  background-image: url('../assets/sarah-lee-QURU8IY-RaI-unsplash.jpg');
+  background-position: bottom;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
 }
 
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+.header-content {
+  margin-bottom: 150px;
+  color: #f5f5f5;
+  text-align: center;
+  padding: 4px;
 }
 
-.bg-container {
-  width: 100%;
-  background: linear-gradient(
-    to right,
-    white 0%,
-    white 50%,
-    paleturquoise 50%,
-    paleturquoise 100%
-  );
+.header-content h1 {
+  font-size: 7vmin;
+  margin-top: 48px;
+  margin-bottom: 32px;
+  text-transform: uppercase;
 }
+
+.header-content h2 {
+  font-size: 7vmin;
+  font-weight: 700;
+}
+
+.border-div {
+  width: 150px;
+  height: 4px;
+  background-color: #4400f2;
+  margin: 8px auto;
+  border-radius: 5px;
+}
+
+.ctn {
+  padding: 8px 16px;
+  background-color: #4400f2;
+  border-radius: 30px;
+  color: #f5f5f5;
+}
+
+/***** FIM DO HEADER *****/
