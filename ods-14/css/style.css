@@ -18,10 +18,7 @@
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
-/*
-body, html {
-  overflow-x: hidden;
-} */
+
 
 a {
 	text-decoration: none;
@@ -147,6 +144,24 @@ p {
   padding: 0 32px;
 }
 /***** FIM DAS METAS *****/
+
+/***** FOOTER *****/
+
+.footer {
+  width: 100%;
+  min-height: 100px;
+  padding: 16px 80px;
+  margin: 0;
+  background-color: #2162e3;
+  text-align: center;
+}
+.footer p {
+  color: #c5f8f3;
+  margin: 16px auto;
+  padding: 16px auto;
+}
+
+/***** FIM DO FOOTER *****/
 
 /*****MOBILE *****/
 
