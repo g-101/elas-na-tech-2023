@@ -221,8 +221,8 @@ h4 {
     display: block;
   }
   .navbar {
-    
-    padding: 44px;
+    position: fixed;
+    padding: 48px;
     background-color: #2162e3;
   }
  
@@ -230,8 +230,11 @@ h4 {
     position: absolute;
     top: 32px;
     left: 32px;
-    
-    
+  }
+
+  section {
+    margin-top: 48px;
+    width: 100%;
   }
   
   .nav-links {
@@ -249,6 +252,13 @@ h4 {
   }
   .nav-links li {
     font-size: 20px;
+    
+    margin: 32px auto;
+  }
+
+  .nav-links li a {
+    font-size: 20px;
+    padding: 16px;
     margin: 32px auto;
   }
 
