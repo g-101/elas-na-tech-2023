@@ -9,5 +9,5 @@ qr = qrcode.QRCode(
     border=4,)
 qr.add_data(data)
 image = qr.make_image(fill_color="black", back_color="#b0e0e6")
-image.save("image/portfolio.png")
+image.save("images/portfolio.png")
 image.show()
