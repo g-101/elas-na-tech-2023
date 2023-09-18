@@ -1,24 +1,82 @@
 .main-container {
-    width: 100%;
-    max-width: 960px;
-    margin: 1rem auto;
+    width: 50vw;
+
+    margin: 2rem auto 0 auto;
     border: 1px #000 solid;
     background-color: #fffdfa;
+}
+header {
+    border: none;
+}
+
+.title {
+    padding: 1rem;
+    border: none;
+}
+
+.title h1 {
+    font-size: 3rem;
 }
 .main {
     display: flex;
 }
 .left-info {
-    flex: 1;
     background-color: #b0e0e6;
     padding: 2rem;
 }
 
+.left-info__contact,
+.left-info__skills,
+.contact__icons {
+    margin-top: 1.5rem;
+}
+.contact__icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.contact__icons img {
+    width: 40px;
+}
+
 .right-info {
-    padding: 2rem;
+    padding: 1rem;
+}
+.right-info p,
+hr {
+    margin-top: 1rem;
+}
+.right-info__about,
+.right-info__courses,
+.right-info__courses h3 {
+    margin-top: 1rem;
 }
 
 .title {
     padding: 1rem;
     background-color: #b0e0e6;
+}
+
+@media only screen and (max-width: 865px) {
+    .main-container {
+        width: 80vw;
+    }
+
+    .title,
+    .left-info {
+        text-align: center;
+    }
+    .title h1 {
+        line-height: 1;
+    }
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+    .left-info,
+    .right-info {
+        padding: 1rem;
+    }
 }
