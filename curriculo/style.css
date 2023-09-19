@@ -1,21 +1,17 @@
 .main-container {
-    width: 50vw;
-
-    margin: 2rem auto 0 auto;
+    width: 55vw;
+    margin: 1.5rem auto;
     border: 1px #000 solid;
     background-color: #fffdfa;
-}
-header {
-    border: none;
 }
 
 .title {
     padding: 1rem;
-    border: none;
 }
 
 .title h1 {
     font-size: 3rem;
+    line-height: 1.1;
 }
 .main {
     display: flex;
@@ -61,15 +57,25 @@ hr {
 
 @media only screen and (max-width: 865px) {
     .main-container {
-        width: 80vw;
+        width: 90vw;
     }
 
     .title,
     .left-info {
         text-align: center;
     }
-    .title h1 {
-        line-height: 1;
+    .left-info__contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .title h2 {
+        font-size: 1.5rem;
+    }
+    .qrcode {
+        width: 280px;
     }
     .main {
         display: flex;
