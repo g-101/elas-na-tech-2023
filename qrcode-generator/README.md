@@ -2,13 +2,25 @@
 
 ## 💻 Sobre o projeto
 
-Um gerador de qrcode para urls, onde pode personalizar cores e nome de arquivo.
+Um gerador de qrcode, onde pode personalizar cores e nome de arquivo.
 
 **Projeto desenvolvido para o Elas na Tech 2023**
 
-Demostração em video
+### Instalação
 
-Opções disponiveis:
+Baixar o Repositório com git clone:
+
+cd qrcode-generator
+
+abrir o projeto no vscode
+
+Instalar Dependências:
+
+```
+pip3 install -r requirements.txt
+```
+
+### Uso de Qr code generator:
 
 ```py
 
@@ -16,12 +28,13 @@ Python Qrcode generator
 
 options:
   -h, --help            show this help message and exit
-  -u URL, --url URL     site url
+  -d DATA, --data DATA  texto, telefone, qualquer dado
   -n NAME, --name NAME  nome do arquivo
   -c COLOR [COLOR ...], --color COLOR [COLOR ...]
                         cor primaria do qrcode
   -bg BGCOLOR [BGCOLOR ...], --bgcolor BGCOLOR [BGCOLOR ...]
                         cor do background do qrcode
+
 
 ```
 
@@ -32,6 +45,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 -   **Python**
 -   **[python-qrcode](https://github.com/lincolnloop/python-qrcode)**
 -   **[argparse](https://docs.python.org/3/library/argparse.html)**
+-   **[Pillow](https://pypi.org/project/Pillow/)**
 
 ## 🦸 Autor
 
