@@ -4,6 +4,16 @@
 
 Um gerador de qrcode, onde pode personalizar cores e nome de arquivo.
 
+
+
+![qrcode](https://github.com/g-101/elas-na-tech-2023/assets/85264055/b44f4009-0261-47a1-b8a9-41aae8ab6e52)
+
+
+
+
+
+
+
 **Projeto desenvolvido para o Elas na Tech 2023**
 
 ### Instalação
