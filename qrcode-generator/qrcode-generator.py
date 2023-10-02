@@ -11,8 +11,8 @@ if __name__ == "__main__":
     
     parser.add_argument("-d", "--data", type=str, required=True, help="texto, telefone, qualquer dado")
     parser.add_argument("-n", "--name", type=str, required=True, help="nome do arquivo")
-    parser.add_argument("-c", "--color", type=int, nargs='+',  help="cor primaria do qrcode")
-    parser.add_argument("-bg", "--bgcolor", type=int, nargs='+', help="cor do background do qrcode")
+    parser.add_argument("-c", "--color", type=int, nargs='+',  help="cor primaria do qrcode (opcional)")
+    parser.add_argument("-bg", "--bgcolor", type=int, nargs='+', help="cor do background do qrcode (opcional)")
 
     args = parser.parse_args()
     data = args.data

@@ -31,9 +31,9 @@ options:
   -d DATA, --data DATA  texto, telefone, qualquer dado
   -n NAME, --name NAME  nome do arquivo
   -c COLOR [COLOR ...], --color COLOR [COLOR ...]
-                        cor primaria do qrcode
+                        cor primaria do qrcode (opcional)
   -bg BGCOLOR [BGCOLOR ...], --bgcolor BGCOLOR [BGCOLOR ...]
-                        cor do background do qrcode
+                        cor do background do qrcode (opcional)
 
 
 ```
