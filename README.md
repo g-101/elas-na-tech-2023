@@ -1,4 +1,6 @@
-# Elas na Tech 2023 - Repositorio dos projetos
+# Elas na Tech 2023 - Repositorio de projetos
+
+O ElasNaTech é uma formação em programação web feita para mulheres. O projeto é realizado pela Junior Achievement Brasil, com o patrocínio da CCR e apoio da Skillsbuild da IBM.
 
 ## Projetos:
 
