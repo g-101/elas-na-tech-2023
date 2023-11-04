@@ -18,7 +18,10 @@
 }
 .left-info {
     background-color: #b0e0e6;
-    padding: 2rem;
+    padding: 2.5rem;
+}
+.left-info__contact ul li:first-child {
+    font-size: 0.813rem;
 }
 
 .left-info__contact,
