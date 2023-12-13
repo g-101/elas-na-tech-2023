@@ -53,6 +53,10 @@ hr {
     margin-top: 1rem;
 }
 
+.right-info__courses ul {
+    list-style: square;
+}
+
 .title {
     padding: 1rem;
     background-color: #b0e0e6;
